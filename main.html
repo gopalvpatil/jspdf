@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="jquery-1.12.4.min.js"></script>
+      <script src="jspdf.debug.js"></script>
+      <script src="jszip.min.js"></script>
+      <script src="main.js"></script>
+      <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+<body>
+
+<div>
+  <button onclick="create_pdf()">
+    Create pdf
+  </button>
+  <button onclick="create_zip()">
+    Create zip
+  </button>
+  
+  <div id="tables" style='position: absolute'>
+    <h1>Tables</h1>
+    <table class="table1">
+      <tbody>
+        <tr>
+          <td>Item</td>
+          <td>Cost</td>
+          <td>Description</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>Milk</td>
+          <td>$1.00</td>
+          <td>Hello PDF World</td>
+          <td>Out Of Stock</td>
+        </tr>
+        <tr>
+          <td>Milk</td>
+          <td>$1.00</td>
+          <td>Hello PDF World</td>
+          <td>Out Of Stock</td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="table2">
+      <tbody>
+        <tr>
+          <td>Item</td>
+          <td>Cost</td>
+          <td>Description</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>Milk</td>
+          <td>$1.00</td>
+          <td>Hello PDF World</td>
+          <td>Out Of Stock</td>
+        </tr>
+        <tr>
+          <td>Milk</td>
+          <td>$1.00</td>
+          <td>Hello PDF World</td>
+          <td>Out Of Stock</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="CSSTableGenerator">
+      <tbody>
+        <tr>
+          <td>Item</td>
+          <td>Cost</td>
+          <td>Description</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>Milk</td>
+          <td>$1.00</td>
+          <td>Hello PDF World</td>
+          <td>Out Of Stock</td>
+        </tr>
+        <tr>
+          <td>Milk</td>
+          <td>$1.00</td>
+          <td>Hello PDF World</td>
+          <td>Out Of Stock</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</body>
+</html>
